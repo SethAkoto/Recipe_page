@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+}
+
+
+body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color:  hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: hsl(30, 10%, 34%);
+}
+
+.main-card{
+    border-radius: 15px;
+    background-color: white;
+    width: 580px;
+    padding: 40px;
+    padding-left: 40px;
+    height: 1300px;
+    margin-left: 40px;
+}
+
+img{
+    border-radius: 15px;
+    width: 600px;
+    height: 240px;
+    margin-left: -10px;
+    margin-right: -20px;
+}
+
+
+.sec1 h1{
+    color:  hsl(24, 5%, 18%);
+    font-size: 34px;
+}
+
+
+ li{
+    list-style-position: inside;
+}
+
+.preparationtimelist{
+    border: 2px solid black;
+    background-color: hsl(330, 100%, 98%);
+    border-style: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.preparationtimelist h3{
+        color: hsl(332, 51%, 32%)
+}
+.preparationtimelist li::marker{
+            color: hsl(332, 51%, 32%)
+}
+
+.ingredients h2{
+  color: hsl(14, 45%, 36%);
+}
+.ingredients li{
+    margin-bottom: 10px;
+}
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+
+.instructions h2{
+   color: hsl(14, 45%, 36%);
+}
+.instructions li{
+    margin-bottom: 8px;
+    list-style-position: outside;
+    padding-left: 13px;
+    margin-left: 15px;
+}
+.instructions li::marker{
+         color: hsl(14, 45%, 36%);
+         font-weight: bolder;
+}
+
+
+.nutrition h2{
+        color: hsl(14, 45%, 36%);
+}
+
+table{
+    width: 100%;
+}
+td{
+    padding-left: 20px;
+    border-bottom: 1px solid #dddd;
+    padding-bottom: 6px;
+    padding-top: 6px;
+
+}
+td:last-child{
+        color: hsl(14, 45%, 36%);
+        font-weight: bolder;
+}
