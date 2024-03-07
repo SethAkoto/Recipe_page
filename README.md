@@ -19,7 +19,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/SethAkoto/Recipe_page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Deployed site](https://recipe-page-6k8m1a64a-sethakotos-projects.vercel.app)
 
 ## My process
 
