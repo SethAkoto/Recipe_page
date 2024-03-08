@@ -1,5 +1,6 @@
 *{
     padding: 0;
+    margin: 0;
 }
 
 
@@ -36,8 +37,12 @@ img{
 .sec1 h1{
     color:  hsl(24, 5%, 18%);
     font-size: 34px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
 }
-
+.sec1 p{
+    padding-bottom: 20px;
+}
 
  li{
     list-style-position: inside;
@@ -61,9 +66,12 @@ img{
 
 .ingredients h2{
   color: hsl(14, 45%, 36%);
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 .ingredients li{
     margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 .ingredients li::marker{
     color: hsl(14, 45%, 36%);
@@ -72,12 +80,15 @@ img{
 
 .instructions h2{
    color: hsl(14, 45%, 36%);
+   padding-top: 20px;
+   padding-bottom: 15px;
 }
 .instructions li{
     margin-bottom: 8px;
     list-style-position: outside;
     padding-left: 13px;
     margin-left: 15px;
+    padding-bottom: 10px;
 }
 .instructions li::marker{
          color: hsl(14, 45%, 36%);
@@ -87,6 +98,8 @@ img{
 
 .nutrition h2{
         color: hsl(14, 45%, 36%);
+        padding-top: 20px;
+        padding-bottom: 15px;
 }
 
 table{
